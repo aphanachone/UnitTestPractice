@@ -33,10 +33,8 @@ TEST(PasswordTest, capitalization)
 	ASSERT_EQ(1, my_password.count_leading_characters("Aaaa"));
 }
 
-TEST(PasswordTest, capitalization)
+TEST(PasswordTest, empty_string)
 {
 	Password my_password; 
-	ASSERT_EQ(1, my_password.count_leading_characters("Aaaa"));
+	ASSERT_EQ(0, my_password.count_leading_characters(""));
 }
-
-
