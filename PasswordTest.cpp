@@ -41,6 +41,6 @@ TEST(PasswordTest, empty_string)
 
 TEST(PasswordTest, mixed_case)
 {
-	ASSERT_TRUE(my.has_mixed_case("Password"))
-	ASSERT_FALSE(my.has_mixed_case("lower"))
+	ASSERT_TRUE(my.has_mixed_case("Password"));
+	ASSERT_FALSE(my.has_mixed_case("lower"));
 }
