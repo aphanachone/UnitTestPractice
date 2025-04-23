@@ -39,7 +39,7 @@ TEST(PasswordTest, empty_string)
 	ASSERT_EQ(0, my_password.count_leading_characters(""));
 }
 
-TEST(PasswordTest, )
+TEST(PasswordTest, mixed_case)
 {
 	ASSERT_TRUE(my.has_mixed_case("Password"))
 	ASSERT_FALSE(my.has_mixed_case("lower"))
